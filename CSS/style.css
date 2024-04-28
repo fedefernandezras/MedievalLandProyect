@@ -1,0 +1,214 @@
+
+@font-face {
+    font-family:crackvetica ;
+    src: url(../assets/Font/Crackvetica.ttf);
+}
+*{
+    margin:0 ;
+    padding: 0;
+}
+body{
+    background-color: rgb(249, 205, 151);
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-family: crackvetica,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing:3px ;    
+        color: coral;   
+}
+h2{
+    font-family: crackvetica,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:3px ;
+    margin-top:10px;
+    color: rgb(156, 77, 49);
+}
+nav{
+    background-color: black;
+}
+.banner{
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    height:auto ;        
+}
+.banner img{
+    width:50PX;
+    height:50PX;
+    margin-top: 50px;    
+}
+.banner h1{
+    margin-top: 50px;    
+}
+a{
+    text-decoration: none;
+    color:rgb(237, 138, 102);
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size:30px ;
+}
+legend{
+    font-size:30px ;
+    color: black;
+}
+.drago{
+    width:300px ;
+}
+footer{
+        background-color: rgb(0, 0, 0);
+        font-size: 15px;
+}
+footer a{
+          font-size: 30PX;
+          letter-spacing: 8px;
+ }    
+.galeriamini{
+    display: grid;
+    grid-template-columns:1fr   ;
+    grid-template-rows:repeat(16,500px);
+    grid-gap:30px ;
+    margin-top: 30px ;
+    margin-bottom:30px ;
+}           
+.galeriamini div{
+    border: 2px solid black;
+    color: black;
+}
+.item{
+    background-position:center ;
+    background-size:cover  ;
+}
+div p{
+    background-color: aliceblue;
+}
+.item1{
+    background-image:url(../assets/min1.jpg) ;
+}
+.item2{
+    background-image:url(../assets/min2.jpg) ;
+}
+.item3{
+    background-image:url(../assets/min3.jpg) ;
+}
+.item4{
+    background-image:url(../assets/min4.jpg) ;
+}
+.item5{
+    background-image:url(../assets/min5.jpg) ;
+}
+.item6{
+    background-image:url(../assets/min6.jpg) ;
+}
+.item7{
+    background-image:url(../assets/min7.jpg) ;
+}
+.item8{
+    background-image:url(../assets/min8.jpg) ;
+}
+.item9{
+    background-image:url(../assets/min9.jpg) ;
+}
+.item10{
+    background-image:url(../assets/min10.jpg) ;
+}
+.item11{
+    background-image:url(../assets/min11.jpg) ;
+}
+.item12{
+    background-image:url(../assets/min12.jpg) ;
+}
+.item13{
+    background-image:url(../assets/min13.jpg) ;
+}
+.item14{
+    background-image:url(../assets/min14.jpg) ;
+}
+.item15{
+    background-image:url(../assets/min15.jpg) ;
+}
+.item16{
+    background-image:url(../assets/min16.jpg) ;
+}
+
+@media only screen and (min-width:480px){
+    .galeriamini {grid-template-columns:1fr 1fr ;
+    grid-template-rows:repeat(8,300px) ;}
+}
+@media only screen and (min-width:768px){
+    .galeriamini {grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:repeat(6,400px) ;}
+    .item1{
+        grid-column:1/2 ;
+        grid-row:1/2 ;
+    }
+    .item2{
+        grid-column:2/3 ;
+        grid-row:1/2 ;
+    }
+    .item3{
+        grid-column:3/4 ;
+        grid-row:1/2 ;
+    }
+    .item15{
+        grid-column:1/2 ;
+        grid-row:2/3 ;
+    }
+    .item16{
+        grid-column:2/3 ;
+        grid-row:2/3 ;
+    }
+    .item4{
+        grid-column:3/4 ;
+        grid-row:2/4 ;
+    }
+    .item5{
+        grid-column:1/2 ;
+        grid-row:3/4 ;
+    }
+    .item6{
+        grid-column:2/3 ;
+        grid-row:3/4 ;
+    }
+    .item7{
+        grid-column:1/2 ;
+        grid-row:4/5 ;
+    }
+    .item8{
+        grid-column:2/4 ;
+        grid-row:4/5 ;
+    }
+    .item9{
+        grid-column:1/2 ;
+        grid-row:5/6 ;
+    }
+    .item10{
+        grid-column:2/3 ;
+        grid-row:5/6 ;
+    }
+    .item11{
+        grid-column:3/4 ;
+        grid-row:5/6 ;
+    }
+    .item12{
+        grid-column:1/2 ;
+        grid-row:6/7 ;
+    }
+    .item13{
+        grid-column:2/3 ;
+        grid-row:6/7 ;
+    }
+    .item14{
+        grid-column:3/4 ;
+        grid-row:6/7 ;
+    }
+
+}
