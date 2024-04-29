@@ -3,10 +3,12 @@
     font-family:crackvetica ;
     src: url(../assets/Font/Crackvetica.ttf);
 }
+
 *{
     margin:0 ;
     padding: 0;
 }
+
 body{
     background-color: rgb(249, 205, 151);
     text-transform: capitalize;
@@ -19,17 +21,20 @@ body{
 h1{
     font-family: crackvetica,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     letter-spacing:3px ;    
-        color: coral;   
+    color: coral;   
 }
+
 h2{
     font-family: crackvetica,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing:3px ;
     margin-top:10px;
     color: rgb(156, 77, 49);
 }
+
 nav{
     background-color: black;
 }
+
 .banner{
     background-color: black;
     display: flex;
@@ -37,18 +42,22 @@ nav{
     flex-wrap: wrap;
     height:auto ;        
 }
+
 .banner img{
     width:50PX;
     height:50PX;
     margin-top: 50px;    
 }
+
 .banner h1{
     margin-top: 50px;    
 }
+
 a{
     text-decoration: none;
     color:rgb(237, 138, 102);
 }
+
 ul{
     list-style-type: none;
     display: flex;
@@ -56,22 +65,27 @@ ul{
     flex-wrap: wrap;
     font-size:30px ;
 }
+
 legend{
     font-size:30px ;
     color: black;
 }
+
 .drago{
     width:300px ;
 }
+
 footer{
-        background-color: rgb(0, 0, 0);
-        font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
 }
+
 footer a{
-          font-size: 30PX;
-          letter-spacing: 8px;
+    font-size: 30PX;
+    letter-spacing: 8px;
  }    
-.galeriamini{
+
+ .galeriamini{
     display: grid;
     grid-template-columns:1fr   ;
     grid-template-rows:repeat(16,500px);
@@ -79,62 +93,81 @@ footer a{
     margin-top: 30px ;
     margin-bottom:30px ;
 }           
+
 .galeriamini div{
     border: 2px solid black;
     color: black;
 }
+
 .item{
     background-position:center ;
     background-size:cover  ;
 }
+
 div p{
     background-color: aliceblue;
 }
+
 .item1{
     background-image:url(../assets/min1.jpg) ;
 }
+
 .item2{
     background-image:url(../assets/min2.jpg) ;
 }
+
 .item3{
     background-image:url(../assets/min3.jpg) ;
 }
+
 .item4{
     background-image:url(../assets/min4.jpg) ;
 }
+
 .item5{
     background-image:url(../assets/min5.jpg) ;
 }
+
 .item6{
     background-image:url(../assets/min6.jpg) ;
 }
+
 .item7{
     background-image:url(../assets/min7.jpg) ;
 }
+
 .item8{
     background-image:url(../assets/min8.jpg) ;
 }
+
 .item9{
     background-image:url(../assets/min9.jpg) ;
 }
+
 .item10{
     background-image:url(../assets/min10.jpg) ;
 }
+
 .item11{
     background-image:url(../assets/min11.jpg) ;
 }
+
 .item12{
     background-image:url(../assets/min12.jpg) ;
 }
+
 .item13{
     background-image:url(../assets/min13.jpg) ;
 }
+
 .item14{
     background-image:url(../assets/min14.jpg) ;
 }
+
 .item15{
     background-image:url(../assets/min15.jpg) ;
 }
+
 .item16{
     background-image:url(../assets/min16.jpg) ;
 }
@@ -209,6 +242,5 @@ div p{
     .item14{
         grid-column:3/4 ;
         grid-row:6/7 ;
-    }
-
+    }    
 }
